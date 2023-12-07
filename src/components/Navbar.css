@@ -1,0 +1,37 @@
+/* Navbar Container */
+nav {
+  background-color: #3498db; /* Set your desired background color */
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.nav-logo {
+  width: 50px; /* Adjust the width according to your logo size */
+  height: auto;
+}
+
+/* Hamburger Button Styling */
+.toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile Navigation Styling */
+.mobile-navigation {
+  display: none;
+}
+
+/* Media Query for Mobile Navigation */
+@media only screen and (max-width: 768px) {
+  .mobile-navigation {
+    display: block;
+  }
+
+  .desktop-navigation {
+    display: none;
+  }
+}

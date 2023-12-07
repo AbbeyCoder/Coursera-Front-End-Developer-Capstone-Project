@@ -1,0 +1,62 @@
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  width: 25%;
+}
+
+/* Navigation Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff; /* Set link color */
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00bcd4; /* Set link color on hover */
+}
+
+/* Contact Information */
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 8px;
+}
+
+/* Social Media Links */
+.connect ul {
+  list-style: none;
+  padding: 0;
+}
+
+.connect a {
+  text-decoration: none;
+  color: #fff; /* Set social media link color */
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.connect a:hover {
+  color: #00bcd4; /* Set social media link color on hover */
+}
